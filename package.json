@@ -1,0 +1,8 @@
+{
+  "name": "smoke-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AlexShan2008/smoke-testing.git",
+  "author": "Alex Shan <shantong.sir@gmail.com>",
+  "license": "MIT"
+}
