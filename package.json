@@ -7,12 +7,16 @@
   "license": "MIT",
   "scripts": {
     "cypress:open": "cypress open",
+    "cypress:snapshots": "cypress run --env updateSnapshots=true --browser chrome --headless --spec \"cypress/integration/snapshot.spec.ts\"",
     "lint": "yarn"
   },
   "devDependencies": {
+    "@types/cypress-image-snapshot": "^3.1.6",
     "@types/node": "^16.7.13",
     "cypress": "^8.3.1",
+    "cypress-image-snapshot": "^4.0.1",
     "eslint-plugin-cypress": "^2.11.3",
     "typescript": "^4.4.2"
-  }
+  },
+  "dependencies": {}
 }
